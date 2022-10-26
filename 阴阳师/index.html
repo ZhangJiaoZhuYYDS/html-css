@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>阴阳师</title>
+    <link rel="icon" href="images/favicon.ico"> <!--shortcut icon,特指浏览器中地址栏左侧显示的图标，一般大小为16x16，后缀名为.icon；
+icon，指的是图标，格式可为PNG\GIF\JPEG，尺寸一般为16x16、24x24、36x36等。-->
+    <link rel="stylesheet" href="css/reset.css">    <!--意为重置默认样式。HTML中绝大部分标签元素在网页显示中都有一个默认属性值，通常为了避免重复定义元素样式，需要进行重置默认样式-->
+    <link rel="stylesheet" href="css/yys.css">
+    <script src="//at.alicdn.com/t/font_3379102_gtbm7knqj7t.js"></script>
+    <script src="//at.alicdn.com/t/font_3379093_n0l0p1w60w.js"></script>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="yys">  <!--最外层的容器-->
+        <!--头部开始-->
+        <div class="header">
+            <div class="menu">游戏全目录
+                <div class="menu-hover">
+                    <div class="menu-tables">
+                        <div class="menu-table menu-table1">客户端游戏</div>
+                        <div class="menu-table menu-table2">手机游戏</div>
+                        <div class="menu-table menu-table3">游戏辅助</div>
+                        <div class="menu-table menu-table4">
+                            <li style="width:121px;border-right:0;">
+                                <p>角色扮演</p>
+                                <a href="http://xyq.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-1st">梦幻西游电脑版</em></a>
+                                <a href="http://xy2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2经典版</em></a>
+                                <a href="http://tx3.163.com/fab/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下3</em></a>
+                                <a href="http://xqn.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">新倩女幽魂</em></a>
+                                <a href="http://n.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">逆水寒</em></a>
+                                <a href="http://ty.163.com/?from=nietop" target="_blank"><em class="">天谕</em></a>
+                                <a href="http://evepc.163.com/?from=nietop" target="_blank"><em class="">EVE Online</em></a>
+                                <a href="http://fight.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">超激斗梦境</em></a>
+                                <a href="http://tia.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">泰亚史诗</em></a>
+                                <a href="https://www.yjwujian.cn/?from=nietop" target="_blank"><em class="NIE-topBar-hot">永劫无间</em></a>
+                                <a href="http://dh2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2免费版</em></a>
+                                <a href="http://xy3.163.com/?from=nietop" target="_blank"><em class="">新大话3经典版</em></a>
+                                <a href="http://x3.163.com/?from=nietop" target="_blank"><em class="">新大话3免费版</em></a>
+                                <a href="http://zmq.163.com/?from=nietop" target="_blank"><em class="">镇魔曲</em></a>
+                                <a href="http://zw.163.com/?from=nietop" target="_blank"><em class="">镇魔曲页游</em></a>
+                                <a href="http://dtws2.163.com/?from=nietop" target="_blank"><em class="">大唐无双</em></a>
+                            </li>
+                        </div>
+                        <div class="menu-table menu-table5">
+                            <li style="width: 121px;border-right:0;margin-left:20px;">
+                                <p>竞技休闲</p>
+                                <a href="http://wh2.163.com/?from=nietop" target="_blank"><em class="">武魂2</em></a><a href="http://www.warcraftchina.com/?from=nietop" target="_blank"><em class="">魔兽世界</em></a><a href="http://www.diablo3.com.cn/?from=nietop" target="_blank"><em class="">暗黑破坏神3</em></a><a href="http://ff.163.com/?from=nietop" target="_blank"><em class="">新飞飞</em></a><a href="http://jl.163.com/?from=nietop" target="_blank"><em class="">精灵传说</em></a>
+                            </li>
+                        </div>
+                        <div class="menu-table menu-table6">
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+                        </div>
+                        <div class="menu-table menu-table7">
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+                        </div>
+                        <div class="menu-table menu-table8">
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+                            <li class="hot" style="width:133px;">
+                                <p>热门推荐</p>
+
+                                <a href="https://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a><a href="https://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a><a href="https://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a><a href="https://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a><a href="https://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a><a href="https://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a><a href="https://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a><a href="https://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">一梦江湖</em></a><a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a><a href="https://mrzh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">明日之后</em></a><a href="https://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">荒野行动</em></a><a href="https://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a><a href="https://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">神都夜行录</em></a><a href="http://pes.163.com/?from=nietop" target="_blank"><em class="">实况足球</em></a><a href="https://t2.163.com/?from=nietop" target="_blank"><em class="">终结战场</em></a><a href="https://mc.163.com/?from=nietop" target="_blank"><em class="">我的世界Minecraft</em></a>
+
+                            </li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <a href="#"><img src="images/logo_b5525b7.png"></a>
+            <div class="sale">25元优惠券</div>
+            <div class="nav">
+                <div class="nav-wrap">
+                    <a>官网首页</a>
+                    <a>新闻资讯</a>
+                    <a>式神录</a>
+                    <a>游戏攻略</a>
+                    <a>泛娱乐</a>
+                    <a>视听中心</a>
+                    <a>主题站</a>
+                    <a>周边商城</a>
+                    <a>藏宝阁</a>
+                    <a>官方渠道</a>
+                    <a>数字藏品管</a>
+                    <span class="nav-wrap-search">
+                        <img src="https://yys.res.netease.com/pc/gw/20180913151832/img/search_b180dd5.png" style="width: 18px;height: 19px">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--头部结束-->
+        <!--轮播图开始-->
+
+        <!--轮播图结束-->
+        <div class="home">
+            <div class="wrap"> <!--平安世界开始-->
+                <div class="world">
+                    <div class="world-title"></div>
+                    <div class="world-tab">
+                        <ul>
+                            <li>
+                                式神录
+                            </li>
+                            <li>
+                                主角录
+                            </li>
+                            <li>
+                                声优录
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="world-img">
+                        <a class="qingming">
+                            晴明
+                        </a>
+                        <a class="shenyue">
+                            神月
+                        </a>
+                        <a class="yuanboya">
+                            源博雅
+                        </a>
+                        <div class="big-img">
+                            <a class="lf-1" href="#">
+                                <img src="images/370.png" alt="" class="big-img-left">
+                            </a>
+                            <a class="rt-1" href="#">
+                                <img src="images/3701.png" alt="">
+                            </a>
+                            <a class="lf-2">
+                                <img src="images/name_sl.png">
+                            </a>
+                            <a class="rt-2">
+                                <img src="images/role_qm(1).png">
+                            </a>
+                            <a class="lf-3">
+                                <img src="images/name_qm.png">
+                            </a>
+                            <a class="rt-3">
+                                <img src="images/role_sl.png">
+                            </a><a class="lf-4">
+                                <img src="images/name_yby.png">
+                            </a>
+                            <a class="rt-4">
+                                <img src="images/role_yby.png">
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <div class="banner-wrap">
+            <div class="ft-news">
+                <div class="news-inner">
+                    <div class="download-wrap">
+                        <div class="nie-download">
+                            <div class="nie-qrcode"></div>
+                            <img src="images/line_dd0b705(1).png">
+                            <a class="buttin-desktop">
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-con">
+                        <div class="news-tab">
+                            游戏资讯
+                            <span></span>
+                        </div>
+                        <div class="news-box">
+                            <div class="new-xinfu">
+                                <p class="p1">【樱月相邀新区已开启】</p>
+                                <div class="p3">
+                                    新区首月<br>
+                                    免费符咒
+                                </div>
+                                <img src="images/new_xinfu_div_icon_ffe8c02.png">
+
+                            </div>
+                            <div class="zixun-box-inner">
+                                <ul>
+                                    <li class="recommend">
+                                        <a>
+                                            <div class="tuijian">
+                                                <img src="images/14a6a628-07cd-40a3-9164-029fd178c36a.jpg">
+                                            </div>
+                                            <div class="tj-con">游戏党必备好物，新人特价包邮！</div>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="recommend">
+                                        <a>
+                                            <div class="tuijian">
+                                                <img src="images/14a6a628-07cd-40a3-9164-029fd178c36a.jpg">
+                                            </div>
+                                            <div class="tj-con">游戏党必备好物，新人特价包邮！</div>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="none-img">
+                                        <a>
+                                            <h2>新闻 | 记录特别的平安京回忆，阴阳师数字藏品馆即将上线</h2>
+                                            <p>相伴同行绮世，每段“记忆”都独特且温暖。如果能以特别的载体，把这些时刻永久留存，那将成为平安世界最珍重的藏品。“阴阳师数字藏品……</p>
+                                            <span class="arrow"></span>
+                                        </a>
+                                    </li>
+                                    <li class="recommend">
+                                        <a>
+                                            <div class="tuijian">
+                                                <img src="images/14a6a628-07cd-40a3-9164-029fd178c36a.jpg">
+                                            </div>
+                                            <div class="tj-con">游戏党必备好物，新人特价包邮！</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--游戏攻略样式开始-->
+        <div class="game">
+            <div class="game-tit">
+
+            </div>
+            <div class="game-box">
+                <div>
+                    <a href="#">
+                        <img src="images/ebda40a6-c7e4-4483-bd0e-48427ef1dd42.png" alt="">
+                        <span>月夕织梦</span>
+                        <span>活动攻略</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/f25f32f8-3ac0-44b2-a225-2154d40fec65.png" alt="">
+                        <span>月夕织梦</span>
+                        <span>活动攻略</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/f39c00d8-1deb-4e9a-bc94-0e92acb20836.png" alt="">
+                        <span>月夕织梦</span>
+                        <span>活动攻略</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--游戏攻略样式结束-->
+        <!--视听盛宴开始 -->
+        <div class="shiting">
+            <div class="shiting-tit"></div>
+            <div class="shiting-box">
+                <div class="shiting-box-1"><a href="#"><img src="images/9f8d5242-77d4-46b3-ade9-89924a47d95f.gif"><span>云岚凭岳，浮石山行</span></a> </div>
+                <div class="shiting-box-2"><a href="#"><img src="https://nie.res.netease.com/r/pic/20220120/8d3c2889-d0a3-4a0e-93e5-d9d677751afa.gif"><span>梦心留居，初念共寻</span></a> </div>
+                <div class="shiting-box-3"><a href="#"><img src="https://nie.res.netease.com/r/pic/20220120/fb0dcdb4-0823-4b22-a133-5d0b920391bc.jpg"><span>云岚凭岳，浮石山行</span></a> </div>
+                <div class="shiting-box-4"><a href="#"><img src="images/9f8d5242-77d4-46b3-ade9-89924a47d95f.gif"><span>云岚凭岳，浮石山行</span></a> </div>
+                <a class="st-box-bt">更多内容
+                    <i></i>
+                </a>
+
+            </div>
+        </div>
+
+        <!--视听盛宴结束 -->
+        <!--泛娱乐开始-->
+        <div class="fanyule">
+            <div class="yule-tit">
+                <a></a>
+            </div>
+            <div class="yule-box">
+                <div class="yule-con">
+                    <ul>
+
+                        <li>
+                            <a>
+                                <img src="images/20e74628-88b3-48d6-bac9-d9c3b3527240.gif">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li class="li1">
+                            <a>
+                                <img src="images/74d00cea-10a1-4444-afb5-d944e903ab92(1).jpg">
+                            </a>
+                            <img class="img1" src="images/57b280b496dee47507111c56NRN73rVj(1).png">
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/e8985f58-81c3-4366-8fef-791423c01b3e(1).gif">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/43eb59ae-19e6-4508-9c6e-fe4afe9b3355.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="images/45109052-bb1c-45f5-bb8d-d359620795aa.png">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a class="right">
+                    <i></i>
+                </a>
+                <a class="left">
+                    <i></i>
+                </a>
+
+            </div>
+        </div>
+        <!--泛娱乐结束-->
+        <!--f4-->
+        <div class="f4-box">
+            <div class="walk01">
+                <div class="west01"></div>
+            </div>
+            <div class="walk02">
+                <div class="west02"></div>
+            </div>
+        </div>
+        <!--f4-->
+        <!--尾部开始-->
+        <div class="bottom">
+            <div class="bottom-box">
+                <div class="bottom-box-box">
+                        <div class="erweima">
+                            <div class="white-circle"></div>
+                            <div class="shine1"></div>
+                            <div class="shine2"> </div>
+                            <div class="month"></div>
+                            <div class="white"></div>
+                            <div class="white-con">
+                                <div class="black"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="nie-share">
+                    <div class="nie-share1">
+                        <span class="nie-share-txt">分享到:</span>
+                        <ul class="nie-share-icon-both">
+                            <li>
+                                <a>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-weibo"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-weixin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nie-copyright">
+                    <div class="coyright-inner">
+                        <div class="inner-part1">
+                            <span class="inner-logo">
+                                <a class="a0">
+                                    <img src="images/netease.2.png">
+                                </a>
+                                <a class="a1">
+                                    <img src="images/nie.2.png">
+                                </a>
+                            </span>
+                            <span class="inner-nav">
+                                <h3>公司简介-客户服务-网易游戏隐私政策及儿童个人信息保护规则-网易游戏-联系我们-商务合作-加入我们</h3>
+                                <h3>网易公司版权所有 ©1997-2022  &nbsp;&nbsp;&nbsp;<a>网络游戏行业防沉迷自律公约</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>家长关爱平台</a></h3>
+
+                            </span>
+                        </div>
+                        <div class="inner-part2">
+                            <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+                            <span>《网络文化经营许可证》</span>
+                            <a>违法及不良信息举报中心</a>
+                            <a>ICP备案：粤B2-20090191-18</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--尾部结束-->
+    </div>
+</body>
+</html>
